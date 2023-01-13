@@ -6,7 +6,7 @@ source: https://gist.github.com/tanmaykm/5111225
 -->
 <html>
   <head>
-		<title>Websocket Demo</title>
+		<title>即時搶地遊戲</title>
 		<style>
 			.cell {
 				border: dotted 1px #444444;
@@ -22,7 +22,7 @@ source: https://gist.github.com/tanmaykm/5111225
 			function doInit() {
 				try {
 					var host = "ws://localhost:4545/"; //設定socker server的ip:port
-					host = "ws://192.168.10.162:4545/";
+					host = "ws://10.99.1.102:4545/";
 					/*if(window.location.hostname) {
 						host = "ws://" + window.location.hostname + ":4545/";
 					}*/
@@ -75,11 +75,7 @@ source: https://gist.github.com/tanmaykm/5111225
 				document.getElementById(id).innerHTML = sign;
 				//ce.value=sign;
 			}
-			function count(){
-				player1=0;
-				player2=0;
-				for 
-			}
+
 		</script>		
 	</head>
 <body onload="doInit()">
